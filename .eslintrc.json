@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  "plugins": ["react"],
+  "settings": {
+    "react": {
+      "version": "detect" // Автоматически определяет версию React
+    }
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
+}
